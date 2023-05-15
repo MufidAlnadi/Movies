@@ -74,9 +74,16 @@ function App() {
             <p>Genre: {movie.genre.join(", ")}</p>
             <p>Director: {movie.director.join(", ")}</p>
             <p>Writers: {movie.writers.join(", ")}</p>
-            <a href={movie.trailer} target="_blank" rel="noopener noreferrer">
-              Watch Trailer
-            </a>
+            <div class="text-center m-5">
+              <a
+                href="{movie.trailer}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "
+              >
+                Watch Trailer
+              </a>
+            </div>
           </div>
         ))}
       </div>
