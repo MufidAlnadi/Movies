@@ -9,11 +9,10 @@ app.use(express.json());
 
 const options = {
   method: "GET",
-  url: "https://online-movie-database.p.rapidapi.com/auto-complete",
-  params: { q: "game of thr" },
+  url: "https://imdb-top-100-movies.p.rapidapi.com/",
   headers: {
     "X-RapidAPI-Key": "8b18e7b6d0mshfb7ed501a547991p13e665jsncfb7e5a62f49",
-    "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+    "X-RapidAPI-Host": "imdb-top-100-movies.p.rapidapi.com",
   },
 };
 
